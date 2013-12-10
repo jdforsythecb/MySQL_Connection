@@ -131,8 +131,6 @@ Public Class MySQL_Connection
 
     'End Sub
 
-    'Public dbConnection As New MySqlConnection("Data Source=" & server & "; user id=" & userID & "; password=" & password & "; database=" & database)
-
     Property database() As String
         Get
             Return db
